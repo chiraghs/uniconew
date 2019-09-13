@@ -1,0 +1,531 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #0F1F2E;
+}
+.ourcompany{
+    display: grid;
+    grid-template-columns: 50% 1fr;
+}
+.navbar{
+    display:grid;
+    grid-template-columns: 12% 1fr;
+    box-shadow: 2px solid black;
+}
+.imageabout1{
+    float: left;
+    margin-left: -30px;
+}
+.menu{
+    margin-left: 48%;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 15px 20px;
+    margin-top: 5px;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 1.08em;
+    color: white;
+    transition:.2s ;
+    letter-spacing: 1.4px;
+}
+.menu li a:active{
+    color: #FADC06;
+}
+.menu li a:hover{
+    border-bottom:2px solid  #FADC06;
+    padding: 0px 0 5px;
+    font-size: 1.08em;
+    color: #99B2BC;
+}
+.logo a{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 10px 0 0 10px;
+}
+
+
+
+
+
+
+.octxt{
+    text-align: center;
+    margin: 50px 5px 5px 5px;
+    padding: 20px;
+}
+.octxt h1{
+    font-size: 50px;
+    margin-bottom: 5px;
+    color: #FADC06;
+    letter-spacing: 3px;
+}
+.octxt p{
+    color: #99B2BC;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.octxt .getstarted{
+    background: #99B2BC;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    margin:20px 20px 20px 20px;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+}
+.imgabout
+{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.octxt .getstarted:hover{
+    background: #FADC06;
+}
+.scrolldown{
+margin-top: 40px;
+padding: 0;
+}
+
+.scrolldown img:hover{
+    transition: 0.4s linear;
+    cursor: pointer;
+    transform: translateY(10px);
+}
+.scrolllink{
+    transition: 0.5s linear;
+}
+
+
+
+
+   
+
+
+
+
+
+
+    /*services*/
+    .serviceintro
+    {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    .serviceinfo{
+        text-align: center;
+        margin: 50px 5px 5px 5px;
+        padding: 20px;
+    }
+    .serviceinfo h1{
+        
+        font-size: 50px;
+        margin-bottom: 5px;
+        color: #FADC06;
+        letter-spacing: 3px;
+    }
+    .serviceinfo p{
+        color: #99B2BC;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .serviceinfo .getstarted{
+        background: #99B2BC;
+        color: white;
+        padding: 8px;
+        text-decoration: none;
+        margin:20px 20px 20px 20px;
+        border-radius: 5px;
+        transition: 0.2s ease-in-out;
+    }
+    .serviceinfo .getstarted:hover{
+        background: #FADC06;
+    }
+
+
+
+
+
+
+
+
+/*servicetabd*/
+    .servicetabs{
+        background-color: rgb(225, 242, 250);
+        box-shadow: 2px 2px 8px #8888ac;
+        text-align: center;
+        display: grid;
+        padding: 50px;
+        grid-template-rows:auto 1fr 1fr 1fr;
+        justify-content: center;
+    }
+    .contentnewservic p{
+color: black;
+    }
+    .servicetabsinfo p{
+       margin-top: 5px
+    }
+    .servcolumno{
+        display: grid;
+        text-align: center;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+    }
+    .websites{
+        background-color: #ffffff;
+        padding: 20px;
+        margin: 50px 100px 20px 200px;
+        width: 450px;
+        height: 240px;
+        overflow: hidden;
+        border-radius: 3%;
+        transition: 0.3s linear;
+    }
+    .websites:hover{
+transform: translateY(-10px);
+    }
+  .websites img{
+      overflow: hidden;
+      width: 100%;
+      height: 40%;
+  }
+  .uiuxo{
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 50px 60px 20px 40px;
+    width: 450px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 3%;
+    transition: 0.3s linear;
+  }
+  .uiuxo:hover{
+    transform: translateY(-10px);
+        }
+  .websitest{
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px 40px 20px 200px;
+    width: 450px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 3%;
+    transition: 0.3s linear;
+}
+.websitest img{
+  overflow: hidden;
+  width: 100%;
+  height: 40%;
+}
+.websitest:hover{
+    transform: translateY(-10px);
+        }
+.uiuxot{
+background-color: #ffffff;
+padding: 20px;
+margin: 15px 60px 20px 40px;
+width: 450px;
+height: 240px;
+overflow: hidden;
+transition: 0.3s linear;
+border-radius: 3%;
+}
+.uiuxot:hover{
+    transform: translateY(-10px);
+        }
+.websitestr{
+    background-color: #ffffff;
+    padding: 20px;
+    margin: -15px 40px 30px 200px;
+    width: 450px;
+    height: 240px;
+    transition: 0.3s linear;
+    overflow: hidden;
+    border-radius: 3%;
+}
+.websitestr:hover{
+    transform: translateY(-10px);
+        }
+.websitestr img{
+  overflow: hidden;
+  width: 100%;
+  height: 40%;
+}
+.uiuxotr{
+background-color: #ffffff;
+padding: 20px;
+margin: -15px 60px 30px 40px;
+width: 450px;
+transition: 0.3s linear;
+height: 240px;
+overflow: hidden;
+border-radius: 3%;
+}
+.uiuxotr:hover{
+    transform: translateY(-10px);
+        }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* footer*/
+
+        .footerrow{
+            display: grid;
+            background-color:rgba(255, 255, 255, 0.212);
+            text-align: center;
+            grid-template-rows: 1fr auto;
+            color: white;
+            padding: 70px 0px 0px 0px;
+        }
+        .footercolumn{
+            text-align: left;
+           line-height: 25px;
+            display: grid;
+            padding: 0 0 20px 0;
+            text-decoration: none;
+            grid-template-columns: 1.6fr 1fr 1fr 1fr;
+        }
+        
+        /* footerinfo*/
+        .footerinfo{
+            margin-left: 45px;
+        }
+        .footerinfo p{
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        
+        .footerinfo h3{
+            font-size: 37px;
+            letter-spacing: 2px;
+        }
+        
+        
+
+
+        .footerlinks{
+            margin-left: 50px;
+        }
+        .footerlinks ul{
+            margin-top: 20px;
+            list-style: none;
+        }
+        .footerlinks ul li a{
+            list-style: none;
+            text-decoration: none;
+            color: white;
+            transition: 0.3s linear;
+        }
+        .footerlinks ul li a:hover{
+            color: #99B2BC;
+        }
+        
+        
+        
+        
+        .footercontact{
+        margin-right: 100px;
+        }
+        
+        .footeraddress{
+            margin-top: 20px;
+            line-height: 20px;
+        }
+        .footerphonenum{
+            margin-top: 10px;
+        }
+
+
+
+
+
+        .footernewsletter{
+            margin-right: 45px;
+        }
+        .footernewsletter p{
+            margin-top: 20px;       
+        }
+        .footersubmit{
+            margin-left: 2px;
+            background-color: rgb(46, 119, 236);
+            border:none;
+            color: white;
+            padding: 3px;
+            transition: 0.4s linear;
+            border-radius: 4px;
+        }
+        .footeremail{
+            border: none;
+            padding: 8px;
+            border-radius: 4px;
+        }
+        .footersubmit:hover{
+           background-color: #99B2BC;
+           cursor: pointer;
+           color: #15315E;
+        }
+
+
+
+
+
+
+
+        .footercontainer{
+            background-color:rgba(255, 255, 255, 0.103);
+            width: 100%;
+            padding: 20px 0px 5px 0px;
+            margin: 0;
+        }
+        .designdevelopcredits{
+            margin-top: 5px;
+        }
+        .footerbacktop{
+            float:right;
+            margin-right: 30px;
+            font-size: 30px;
+        }
+
+
+
+
+
+         /* clients*/
+         .clients{
+             text-align: center;
+             background: rgba(15, 31, 46, 0.863);
+             padding-bottom: 30px;
+         }
+         .clientsinfo{
+           text-align: center;
+         }
+         .clientsinfo h3{
+            font-size: 40px;
+            padding: 20px 0 20px 0;
+            color: rgb(255, 255, 255);
+          }
+          .clientsinfo p{
+                color: white;
+          }
+          .clientsrow{
+              margin-top: 30px;
+              display: grid;
+              grid-template-rows: 1fr 1fr;
+          }
+          .clientstablerow1{
+            margin-top: 20px;
+            display: grid;
+            padding: 0 120px 0 120px;
+            grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+          }  
+          .clientstablerow2{
+            margin-top: 1px;
+            display: grid;
+            padding: 0 120px 0 120px;
+            grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+          }    
+          .client-logo{
+              background: rgba(255, 255, 255, 0.075);
+              padding: 50px;
+              margin: 1px
+          }    
+          .imgclient{
+              transition: 0.3s linear;
+          }  
+          .imgclient:hover{
+          transform: scale(1.6)
+        }    
+
+
+
+
+
+
+
+                /*team cards*/
+        
+     .team{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 8px #8888ac;
+    padding: 30px
+}
+
+
+
+.text{
+text-align-last: center;
+letter-spacing: 2px;
+color: rgb(17, 16, 16);
+}
+
+.text h3{
+    text-align-last: center;
+    letter-spacing: 1px;
+    color: black;
+    }
+        .teammembers{
+            position: relative;
+            text-align: center;
+            height: auto;
+            padding-bottom: 30px;
+        }
+        .teamrow{
+            margin-top: 30px;
+            display: grid;
+            grid-template-rows: auto auto;
+        }
+        .team-img{
+            background: white;
+            height: 100px;
+            text-align: center;
+            border-radius: 3%;
+            box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.03);
+            transition: 0.5s linear;
+            margin: 10px
+        }
+        .teamtablerow1{
+          margin-top: 20px;
+          display: grid;
+          padding: 0 120px 0 120px;
+          grid-template-columns:1fr 1fr 1fr 1fr;
+        }  
+        .teamtablerow2{
+          margin-top: 1px;
+          display: grid;
+          padding: 0 120px 0 120px;
+          grid-template-columns:1fr 1fr 1fr 1fr;
+        }    
+        .team-img:hover{
+            transform: translateY(25px)
+        }
+      
+
+        .teamm1{
+background-image: url(/resources/images/captain.jpg);
+z-index: 5;
+        }
